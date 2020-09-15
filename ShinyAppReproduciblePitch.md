@@ -12,10 +12,10 @@ OVERVIEW
 
 Old Faithful Geyser Data
 
-Description
+Description:
 Waiting time between eruptions and the duration of the eruption for the Old Faithful geyser in Yellowstone National Park, Wyoming, USA.
 
-We show how the number of histogram bins influence the graph visability.
+We show how the number of histogram bins influence the graph visibility.
 
 Access to my ShinyApp page via - https://thenomadcanary.shinyapps.io/ShinyAppReproduciblePitch/
 

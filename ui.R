@@ -1,11 +1,3 @@
-#
-# This is the user-interface definition of a Shiny web application. You can
-# run the application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
 
 library(shiny)
 
@@ -13,7 +5,7 @@ library(shiny)
 shinyUI(fluidPage(
 
     # Application title
-    titlePanel("Old Faithful Geyser Data"),
+    titlePanel("Old Faithful Geyser Data and Histagram plots"),
 
     # Sidebar with a slider input for number of bins
     sidebarLayout(
@@ -27,7 +19,12 @@ shinyUI(fluidPage(
 
         # Show a plot of the generated distribution
         mainPanel(
-            plotOutput("distPlot")
+            tabsetPanel(type = "tabs",
+                tabPanel("Documentation", br(), 
+                    "Waiting time between eruptions and the duration of the eruption for the Old Faithful geyser in Yellowstone National Park, Wyoming, USA.
+                     We show how the number of histogram bins influence the graph visibility."),
+                tabPanel("Plot", plotOutput("distPlot"))
+                )
         )
     )
 ))
