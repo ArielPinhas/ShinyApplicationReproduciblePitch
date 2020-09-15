@@ -1,0 +1,12 @@
+name: ShinyAppReproduciblePitch
+title: ShinyAppReproduciblePitch
+username:
+account: thenomadcanary
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2813266
+bundleId: 3632020
+url: https://thenomadcanary.shinyapps.io/ShinyAppReproduciblePitch/
+when: 1600186131.84402
+asMultiple: FALSE
+asStatic: FALSE

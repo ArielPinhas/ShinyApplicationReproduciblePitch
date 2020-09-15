@@ -17,7 +17,7 @@ Waiting time between eruptions and the duration of the eruption for the Old Fait
 
 We show how the number of histogram bins influence the graph visability.
 
-Access to my ShinyApp page via - 
+Access to my ShinyApp page via - https://thenomadcanary.shinyapps.io/ShinyAppReproduciblePitch/
 
 Source code is available on the GitHub 
 https://github.com/TheNoMadCanary/ShinyApplicationReproduciblePitch
